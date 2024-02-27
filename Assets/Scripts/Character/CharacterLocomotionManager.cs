@@ -6,7 +6,10 @@ namespace NGD
 {
     public class CharacterLocomotionManager : MonoBehaviour
     {
-
+        protected virtual void Awake()
+        {
+            
+        }
     }
 
 }
