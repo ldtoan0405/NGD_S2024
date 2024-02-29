@@ -44,5 +44,10 @@ namespace NGD
                     characterNetworkManager.networkRotationSmoothTime);
             }
         }
+
+        protected virtual void LateUpdate()
+        {
+            
+        }
     }
 }
